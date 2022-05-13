@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+*{
+    font-family: 'Recursive', sans-serif;  
+}
+
+.tela-inicil{
+    display: flex;
+    flex-direction: column;
+    background-color: #FB6B6B;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.tela-inicil div{
+    display: flex;
+    flex-direction: column;
+}
+.tela-inicil img{
+    margin-bottom: 20px;
+}
+
+.tela-inicil div span{
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.tela-inicil button{
+    margin-top: 40px;
+    width: 246px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Recursive', sans-serif;
+    color: #D70900;
+}
+.tela-recal{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    background-color: #FB6B6B;
+    align-items: center;
+}
+.logo-name{
+    display: flex;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+}
+.flashcards{
+    margin-top: 60px;
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+.flashcards ion-icon{
+    width: 20px;
+    height: 23px;
+    color: #333333;
+    cursor: pointer;
+}
+
+
+.logo-name{
+    margin-top: 20px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-name img{
+    width: 52px;
+    height: 60px;
+    margin-right: 25px;
+}
