@@ -6,9 +6,9 @@ import Score from "./score"
 
 
 
-function PerguntasRespostas({titulo,resposta,setTelaResposta,telaResposta,setStatusFinal}){
+function PerguntasRespostas({titulo,resposta,setTelaResposta,setStatusFinal}){
     const[entrarPergunta,setEntrarPergunta]= React.useState("virada")
-    
+
 
     function esqueceu(){
         <>

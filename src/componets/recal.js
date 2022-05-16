@@ -6,7 +6,6 @@ import LogoPequena from "../imagens/logo-pequeno.png"
 
 
 export default function Recal(){
-    //const[telaCard, setTelaCard] = React.useState("perguntaCosta")
 
     return(
         <>

@@ -39,7 +39,6 @@ let perguntas=[
 ]
 perguntas.sort(embaralhador);
 
-// Esta função pode ficar separada do código acima, onde você preferir
 function embaralhador() { 
     return Math.random() - 0.5; 
 }

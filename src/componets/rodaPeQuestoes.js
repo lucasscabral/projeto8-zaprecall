@@ -5,7 +5,7 @@ import Score from "./score"
 
 
 export default function RodaPeQuestoes({perguntas,setTelaResposta}){
-    //console.log(perguntas.length)
+    
     const[contarConcluidas,setContarConcluidas] = React.useState(0)
 
 
