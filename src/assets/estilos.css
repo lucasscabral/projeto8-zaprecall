@@ -45,14 +45,40 @@
     flex-direction: column;
     background-color: #FB6B6B;
     align-items: center;
+    padding: 10px 0px;
 }
+.tela-recal::-webkit-scrollbar {
+    display: none;
+}
+
 .logo-name{
     display: flex;
+    width: 100%;
+    height: 70px;
     font-family: 'Righteous', cursive;
     color: #FFFFFF;
+    position: fixed;
+    background-color: #FB6B6B;
+    top: 0px;
+    left: 0px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo-name img{
+    width: 52px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.todas-perguntas{
+    padding: 70px 0px;
 }
 .flashcards{
-    margin-top: 60px;
+    margin-top: 45px;
     width: 300px;
     height: 65px;
     background: #FFFFFF;
@@ -66,6 +92,7 @@
     box-sizing: border-box;
     padding: 0px 10px;
 }
+
 .flashcards ion-icon{
     width: 20px;
     height: 23px;
@@ -73,19 +100,6 @@
     cursor: pointer;
 }
 
-
-.logo-name{
-    margin-top: 20px;
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo-name img{
-    width: 52px;
-    height: 60px;
-    margin-right: 25px;
-}
 .perguntas-respostas{
     margin-top: 40px;
     width: 299px;
@@ -111,9 +125,6 @@
     cursor: pointer;
 }
 .face { 
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     box-sizing: border-box;
     padding: 15px 10px;
     width: 299px;
@@ -129,9 +140,7 @@
     transition: all .5s;
     transform-style: preserve-3d;
 }
-/*.resposta {
-    transform: rotateY(180deg);
-}*/
+
 .rotacao-aparecer{
     transform: rotateY(0deg);
 }
@@ -147,10 +156,33 @@
     margin-top: 30px;
     justify-content: space-between;
 }
+
+.resposta-vermelha{
+    text-decoration: line-through;
+    color: #D70900;
+}
+.resposta-vermelha ion-icon{
+    color: #D70900;
+}
+.resposta-amarelo{
+    text-decoration: line-through;
+    color: #FF922E;
+}
+.resposta-amarelo ion-icon{
+    color: #FF922E;
+}
+.resposta-verde{
+    text-decoration: line-through;
+    color: #2FBE34;
+}
+.resposta-verde ion-icon{
+    color: #2FBE34;
+}
+
 .botao-vermelho{
     text-align: center;
-    width: 85.17px;
-    height: 37.17px;
+    width: 86px;
+    height: 38px;
     background: #FF3030;
     border-radius: 5px;
     cursor: pointer;
@@ -158,8 +190,8 @@
 
 .botao-amarelo{
     text-align: center;
-    width: 85.17px;
-    height: 37.17px;
+    width: 86px;
+    height: 38px;
     background: #FF922E;
     border-radius: 5px;
     cursor: pointer;
@@ -168,9 +200,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85.17px;
-    height: 37.17px;
+    width: 86px;
+    height: 38px;
     background: #2FBE34;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.roda-pe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    font-family: 'Recursive', sans-serif;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
